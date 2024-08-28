@@ -198,3 +198,9 @@ p {
         display: block;
     }
 }
+
+@media (max-width: 590px) {
+    #about p{
+        padding: 0 20px;
+    }
+}
