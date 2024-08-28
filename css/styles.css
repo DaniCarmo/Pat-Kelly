@@ -30,7 +30,7 @@ p {
 
 .navbar-brand {
     color: white !important;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #navbar.navbar-dark {
@@ -40,7 +40,7 @@ p {
 
 #navbar .nav-link {
     color: white !important;
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     padding-right: 30px;
 }
