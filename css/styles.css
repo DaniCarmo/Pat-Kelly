@@ -113,8 +113,8 @@ p {
 }
 
 #shows .card-img-container {
-    flex: 2;
-    height: 70%;
+    flex: 5;
+    height: 90%;
     overflow: hidden;
     position: relative;
 }
@@ -154,7 +154,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30%;
+    height: 10%;
 }
 
 .audio-visualizer video {
