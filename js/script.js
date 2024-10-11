@@ -31,7 +31,7 @@ window.addEventListener('scroll', function() {
 });
 
 // WaveSurfer.js integration
-import WaveSurfer from 'https://cdn.jsdelivr.net/npm/wavesurfer.js@7/dist/wavesurfer.esm.js';
+// import WaveSurfer from 'https://cdn.jsdelivr.net/npm/wavesurfer.js@7/dist/wavesurfer.esm.js';
 
 // Array of audio files to load for each show
 const audioFiles = [
