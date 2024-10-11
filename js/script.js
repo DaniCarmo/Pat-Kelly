@@ -29,35 +29,3 @@ window.addEventListener('scroll', function() {
         }
     });
 });
-
-
-// import WaveSurfer from 'https://cdn.jsdelivr.net/npm/wavesurfer.js@7/dist/wavesurfer.esm.js';
-document.addEventListener('DOMContentLoaded', () => {
-    // WaveSurfer.js integration
-    const audioFiles = [
-        'audio/Derek Rusk Finish.mp3',
-        'audio/SSOCT2217 Norma Foley Finish.mp3',
-        'audio/Gary O Donnell Finish.mp3',
-        'audio/Ed Kelliher Finish 2.mp3',
-        'audio/Ger Carmody Finish.mp3'
-    ];
-
-    // Initialize WaveSurfer instances for each audio clip
-    audioFiles.forEach((audioFile, index) => {
-        const wavesurfer = WaveSurfer.create({
-            container: `#waveform${index + 1}`,  // The id of each audio-visualizer div
-            waveColor: 'rgb(200, 0, 200)',
-            progressColor: 'rgb(100, 0, 100)',
-            barWidth: 2,
-            height: 100
-        });
-
-        // Load the audio file into the corresponding waveform
-        wavesurfer.load(audioFile);
-
-        // Add custom controls (optional)
-        document.querySelector(`#waveform${index + 1}`).addEventListener('click', () => {
-            wavesurfer.playPause();  // Play/pause on click
-        });
-    });
-});
