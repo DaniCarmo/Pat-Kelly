@@ -102,10 +102,6 @@ p {
     justify-content: center;
 }
 
-#shows .show {
-    margin: 0 auto;
-}
-
 #shows .card {
     border: none;
     transition: transform 0.3s ease;
@@ -114,7 +110,8 @@ p {
     height: 25rem;
     width: 23.5rem;
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
+    margin: auto;
 }
 
 #shows .card:hover {
@@ -160,6 +157,7 @@ p {
     align-items: center;
     justify-content: center;
     height: 10%;
+    background-color: black;
 }
 
 .audio-visualizer video {
